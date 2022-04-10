@@ -1,0 +1,256 @@
+.menu-nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;}
+  a {
+    text-decoration:none;
+  }
+
+.parrafo{text-align: center;}
+.direcciones{text-align: center;}
+
+a {
+  color: yellow;
+}
+img.logo {
+  display: block;
+  margin: 0px auto;
+}
+img.logo {
+  width: 950px;
+  height: 300px;
+  border: 5px solid black;
+}
+h1 {
+  color: #30AADD;
+  font-style: normal;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 100px;
+  text-align: center;
+}
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 35px;
+}
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: inherit;
+  color: #00FFC6;
+  text-align: center;
+}
+
+ul {
+  display: block;
+  text-align: center;
+  padding-inline-end: 4%;
+}
+li {
+  display: block;
+  display: inline;
+  text-decoration-line: underline;
+}
+footer {
+  text-align: center;
+}
+a.index {
+  margin-inline-end: 4%;
+}
+a.productos {
+  margin-inline-end: 4%;
+}
+a.nosotros {
+  margin-inline-end: 4%;
+}
+a.contacto {
+  margin-inline-end: 4%;
+}
+ul.final {
+  margin-inline-end: 4%;
+  display: block;
+  display: center;
+}
+.facebook {
+  padding-right: 4%;
+  margin-left: 4%;
+}
+.instagram {
+  padding-right: 4%;
+}
+.manitos {
+  height: fit-content;
+  width: 250px;
+  display: inline-block;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+.rositas {
+  height: fit-content;
+  width: 350px;
+  padding-right: 12%;
+
+}
+.manitos2 {
+  height: fit-content;
+  width: 250px;
+}
+.verde{
+  height: fit-content;
+  width: 350px;
+  padding-right: 12%;
+  padding-left:  12%;
+}
+
+.rojas{
+  height: fit-content;
+  width: 400px;
+  padding-right: 12%;
+  padding-left:  12%;
+}
+
+.negras{ 
+height: fit-content;
+width: 350px;
+padding-left: 12%;
+padding-right: 12%;
+}
+
+.floreadas{
+  height: fit-content;
+  width: 350px;
+  padding-right: 12%;
+  padding-left:  12%;
+}
+
+
+.mochilaestampa{
+  height:fit-content;
+  width: 350px;
+  padding-right: 12%;
+  padding-left:  12%;
+}
+.mochilagris{
+  height: fit-content;
+  width: 350px;
+  padding-right: 12%;
+  padding-left:  12%;
+}
+.riño{
+  height: fit-content;
+  width: 350px;
+  padding-right: 12%;
+  padding-left:  12%;
+}
+.riñonera{
+  height: fit-content;
+  width: 350px;
+  padding-right: 12%;
+  padding-left:  12%;
+}
+
+
+.piluso{
+  height: fit-content;
+  width: 350px;
+  padding-right: 12%;
+  padding-left:  12%;
+}
+
+.australiana{
+  height: fit-content;
+  width: 350px;
+  padding-right: 12%;
+  padding-left:  12%;
+}
+
+
+
+
+body {
+  background-color: violet;
+}
+
+.button {text-align:end;}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100x 100px;
+  grid-template-rows: 100px 100px;
+  grid-auto-rows: 1fr;
+  border-color: black;
+}
+
+
+
+.div-responsive {
+  background-color:violet;
+}
+
+@media screen and (min-width:400px) and (max-width:650px) {
+  .div-responsive{
+    background-color: rgb(193, 29, 144);
+    padding: 10px;
+  }
+}
+@media screen and (min-width:650px) and (max-width:800px) {
+  .div-responsive{
+    background-color: red;
+    padding: 10px;
+  }
+}
+@media screen and (min-width:800px) and (max-width:1200px) {
+  .div-responsive{
+    background-color: rgb(4, 255, 0);
+    padding: 10px;
+  }
+}
+@media screen and (min-width:1200px){
+.div-responsive{
+    background-color: white
+    padding: 10px;
+  } 
+
+  #gradientes{
+    height: 3000px;
+    
+    background-image: linear-gradient(to left,#ff85b3,#f900bf,#9900f0,#4700d8);
+  }
+.transformaciones{
+  transform: scale(2,1);
+  }
+img:hover{transform: scale(1.2);}
+
+.menu-nav li:hover{
+  background-color: goldenrod;
+  padding: (10px 20px);
+}
+.menu-nav li{
+height: 100px;
+transition: height .5s;
+}
+.menu-nav li:hover{
+height: 200px;
+}
+
+input{
+  width: 100px;
+  height: 40px;
+  transition: all .5s;
+}
+input:focus{
+  width: 15px;
+  font-size: 10px;
+}
+
+@keyframes aparecer{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+h2{
+animation-duration: 5s;
+animation-name: aparecer;
+animation-iteration-count:initial;
+}

@@ -209,7 +209,7 @@ body {
 }
 @media screen and (min-width:1200px){
 .div-responsive{
-    background-color: white
+    background-color: white;
     padding: 10px;
   } 
 
@@ -254,3 +254,9 @@ animation-duration: 5s;
 animation-name: aparecer;
 animation-iteration-count:initial;
 }
+.parrafo-proyectoenrama{
+  font-size: 10x;
+  background-color:purple;
+  padding: 10px;
+}
+

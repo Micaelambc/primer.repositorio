@@ -1,0 +1,9 @@
+@mixin parrafos{
+font-family: 'Times New Roman', Times, serif;
+font-size: 2rem;
+text-align: center;
+}    
+
+.parrafos{
+    @include parrafos;
+}

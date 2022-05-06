@@ -1,6 +1,0 @@
-$mapRedes: (facebook:violet, instagram: red, twitter: orange);
-@each $violet,$color in $mapRedes{
-    .#{$violet}{
-        color:color;
-    }
-}
